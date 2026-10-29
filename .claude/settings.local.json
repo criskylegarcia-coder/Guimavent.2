@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(flutter --version)",
+      "Bash(flutter pub *)",
+      "Bash(flutter analyze *)",
+      "Bash(flutter devices *)",
+      "Bash(flutter build *)",
+      "Bash(flutter test *)",
+      "Bash(where flutter *)",
+      "Bash(flutter --version --machine)",
+      "Bash(find / -path \"*/supabase_flutter-*/lib/src/supabase.dart\" 2>/dev/null | head -3)",
+      "Read(//c//**)",
+      "Bash(chromium-cli --help)",
+      "Bash(npx --version)",
+      "Bash(npm ls *)",
+      "Bash(node -e \"require\\('playwright'\\); console.log\\('playwright ok'\\)\")",
+      "Bash(flutter run *)",
+      "Bash(curl -s https://aprcalualpiptrixqcar.supabase.co/rest/v1/ -H 'apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFwcmNhbHVhbHBpcHRyaXhxY2FyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQ4NTY3NjcsImV4cCI6MjEwMDQzMjc2N30.7ejcu_Sji9x98bkczQcZ9dwrjbOg1eP_SRYiAOk2PAQ' -o /tmp/pgrst_spec.json -w 'HTTP %{http_code}\\\\n')",
+      "Read(//tmp/**)",
+      "Bash(curl -s 'https://aprcalualpiptrixqcar.supabase.co/rest/v1/arrival_cards?select=id,user_id,full_name,age,sex,duration,municipality,created_at&limit=1' -H 'apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFwcmNhbHVhbHBpcHRyaXhxY2FyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQ4NTY3NjcsImV4cCI6MjEwMDQzMjc2N30.7ejcu_Sji9x98bkczQcZ9dwrjbOg1eP_SRYiAOk2PAQ' -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFwcmNhbHVhbHBpcHRyaXhxY2FyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQ4NTY3NjcsImV4cCI6MjEwMDQzMjc2N30.7ejcu_Sji9x98bkczQcZ9dwrjbOg1eP_SRYiAOk2PAQ' -w '\\\\nHTTP %{http_code}\\\\n')",
+      "Bash(curl -s 'https://aprcalualpiptrixqcar.supabase.co/rest/v1/itinerary_items?select=id,user_id,event_id,title,venue,event_date,created_at&limit=1' -H 'apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFwcmNhbHVhbHBpcHRyaXhxY2FyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQ4NTY3NjcsImV4cCI6MjEwMDQzMjc2N30.7ejcu_Sji9x98bkczQcZ9dwrjbOg1eP_SRYiAOk2PAQ' -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFwcmNhbHVhbHBpcHRyaXhxY2FyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQ4NTY3NjcsImV4cCI6MjEwMDQzMjc2N30.7ejcu_Sji9x98bkczQcZ9dwrjbOg1eP_SRYiAOk2PAQ' -w '\\\\nHTTP %{http_code}\\\\n')",
+      "Bash(supabase --version)"
+    ]
+  }
+}
